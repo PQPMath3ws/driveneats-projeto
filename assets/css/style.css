@@ -35,7 +35,9 @@ body {
     position: fixed;
     top: 100px;
     left: 0px;
+    bottom: 96px;
     width: 100%;
+    overflow-y: scroll;
 }
 
 .option-text {
