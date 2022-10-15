@@ -20,6 +20,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0px;
+    z-index: 1;
 }
 
 #driven-eats-text {
@@ -50,6 +51,7 @@ body {
 
 .options-div {
     margin-top: 31px;
+    margin-bottom: 31px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     display: flex;
@@ -95,6 +97,13 @@ body {
     font-weight: 700;
     font-size: 16px;
     color: #333333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+   -webkit-box-orient: vertical;
+   -moz-box-orient: vertical;
 }
 
 .option-description {
@@ -125,13 +134,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 #finish-order-btn {
     border-radius: 50px;
     background-color: #CBCBCB;
-    width: 98%;
-    height: 78%;
+    width: 92%;
+    height: 76%;
     border: none;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
