@@ -48,6 +48,74 @@ body {
     color: #333333;
 }
 
+.options-div {
+    margin-top: 31px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.options-div > * {
+    margin-right: 26px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    min-width: 172px;
+    max-width: 172px;
+    width: 20px;
+    padding: 12px 0px 14px 0px;
+}
+
+.option img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.option p {
+    margin-top: 12px;
+    overflow: hidden;
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 18px;
+}
+
+.option-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+.option-description {
+    font-weight: 300;
+    font-size: 15px;
+    color: #A6A6A6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+   -webkit-box-orient: vertical;
+   -moz-box-orient: vertical;
+}
+
+.option-price {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
 #finish-shop-div {
     position: fixed;
     bottom: 0px;
