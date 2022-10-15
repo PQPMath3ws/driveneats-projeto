@@ -45,3 +45,29 @@ body {
     font-size: 26px;
     color: #333333;
 }
+
+#finish-shop-div {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#finish-order-btn {
+    border-radius: 50px;
+    background-color: #CBCBCB;
+    width: 98%;
+    height: 78%;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.018em;
+    text-align: center;
+}
