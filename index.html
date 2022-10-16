@@ -16,7 +16,7 @@
         <div class="option-text">
             <p>Primeiro, seu prato</p>
         </div>
-        <div class="options-div">
+        <div id="food" class="options-div">
             <div class="option">
                 <img src="assets/images/pratos/feijoada.jpg">
                 <p class="option-name">Feijoada</p>
@@ -57,7 +57,7 @@
         <div class="option-text">
             <p>Agora, sua bebida</p>
         </div>
-        <div class="options-div">
+        <div id="drink" class="options-div">
             <div class="option">
                 <img src="assets/images/bebidas/suco-de-laranja.jpg">
                 <p class="option-name">Suco de Laranja</p>
@@ -110,7 +110,7 @@
         <div class="option-text">
             <p>Por fim, sua sobremesa</p>
         </div>
-        <div class="options-div">
+        <div id="dessert" class="options-div">
             <div class="option">
                 <img src="assets/images/sobremesas/acai.jpg">
                 <p class="option-name">Açaí</p>
@@ -144,7 +144,7 @@
         </div>
     </div>
     <div id="finish-shop-div">
-        <button id="finish-order-btn">Selecione os 3 itens para fechar o pedido</button>
+        <button id="finish-order-btn" onclick="finalizaOrdem()" disabled>Selecione os 3 itens para fechar o pedido</button>
     </div>
     <script type="text/javascript" src="assets/js/script.js" defer></script>
 </body>
