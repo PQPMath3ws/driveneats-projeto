@@ -144,7 +144,30 @@
         </div>
     </div>
     <div id="finish-shop-div">
-        <button id="finish-order-btn" onclick="finalizaOrdem()" data-test="finish-button" disabled>Selecione os 3 itens para fechar o pedido</button>
+        <button id="finish-order-btn" onclick="verificaOrdem()" data-test="finish-button" disabled>Selecione os 3 itens para fechar o pedido</button>
+    </div>
+    <div id="verify-order">
+        <div id="order-verify" data-test="confirmation-dialog">
+            <p id="confirm-text">Confirme seu pedido</p>
+            <div id="food-infos">
+                <p id="food-text">A</p>
+                <p id="food-price">0</p>
+            </div>
+            <div id="drink-infos">
+                <p id="drink-text">A</p>
+                <p id="drink-price">0</p>
+            </div>
+            <div id="dessert-infos">
+                <p id="dessert-text">A</p>
+                <p id="dessert-price">0</p>
+            </div>
+            <div id="total-infos">
+                <p id="total-text">TOTAL</p>
+                <p id="total-price">0</p>
+            </div>
+            <button id="confirm-order-btn">Tudo certo, pode pedir!</button>
+            <button id="cancel-order-btn">Cancelar</button>
+        </div>
     </div>
     <script type="text/javascript" src="assets/js/script.js" defer></script>
 </body>
